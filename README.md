@@ -264,6 +264,7 @@ app://payment/posCustomization?fontColor=%23000000&keyboardFontColor=%23000000&e
 ```
 
 O tamanho do logo (toolbarIcon) enviado precisa ser menor que _100kb_ podendo ser nos formatos _.pgn_, _.jpg_ e _.bmp_.
+
 Para enviar a fonte utilizada no texto (font) e/ou o logo (toolbarIcon) através da URI, é necessário fazer a conversão deles para _bytes_ e, em seguida, condificá-los usando o Base64. O exemplo abaixo, em linguagem Java, ilustra uma maneira de fazer essa conversão:
 ```java
 try {
